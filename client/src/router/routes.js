@@ -31,6 +31,11 @@ const routes = [
     path: '/login',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', name: 'login', component: () => import('pages/Login.vue') }]
+  },
+  {
+    path: '/callback',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', name: 'callback', component: () => import('pages/Callback.vue') }]
   }
 ]
 

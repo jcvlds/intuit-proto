@@ -18,19 +18,22 @@
       </div>
 
       <div class="column q-mt-none">
-          <h6 class="text-grey-8 q-mt-lg q-mb-xs">Company:</h6>
+          <h6 class="text-grey-8 q-mt-lg q-mb-xs">Company: <span class="text-primary">H&CO Global Advisors</span></h6>
           <!-- <p class="text-grey-8 text-body1 q-pl-sm" style="font-size: 1.5em">{{ users.goal }}</p> -->
       </div>
       </q-card-section></q-card>
 
       <q-card bordered class="bg-white q-mb-xl q-mt-lg" style="width: 100%"><q-card-section>
       <div class="column">
-          <h6 class="text-grey-8 q-mt-sm q-mb-none">Progreso:</h6>
+          <h6 class="text-accent q-mt-sm q-mb-none">Executive KPIs:</h6>
       </div>
       <div class="fit col-12 q-pt-none q-mt-none">
         <q-item-label header class="text-grey-9 text-body1" style="font-size: 1.2em">
           <!-- Peso Inicial: {{ users.weight }} lbs -->
-          Peso Inicial:
+          YTD Rev <span style="font-size:10px">(actual vs forecast):</span>
+        </q-item-label>
+        <q-item-label header class="text-grey-9 text-body1" style="font-size: 1.2em">
+          Costs <span style="font-size:10px">(actual vs forecast):</span>
         </q-item-label>
       </div>
 
